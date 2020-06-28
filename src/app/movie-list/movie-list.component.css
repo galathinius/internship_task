@@ -1,32 +1,14 @@
 img {
-    object-fit: contain;
-    padding: 5px;
-    max-height: 250px;
-
+    padding: 1rem;
+    max-height: 15rem;
 }
 
 .flex-item {
-    flex: 1 0 20%;
     background-color: #fff;
 }
-
 
 .flex-container {
     display: flex; 
     overflow: auto;
     white-space: nowrap;
-  }
-
-
-img.ng-lazyloaded {
-    animation: fadein 0.5s;
-  }
-
-@keyframes fadein {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
   }

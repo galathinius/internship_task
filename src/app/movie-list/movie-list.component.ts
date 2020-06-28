@@ -11,7 +11,7 @@ export class MovieListComponent implements OnInit {
   constructor(private apiService: ApiService) { }
 
   Items;
-  lazyTargets;
+
   ngOnInit(): void {
     this.apiService.getImage().subscribe((resp: any) => {
         this.Items = resp;
